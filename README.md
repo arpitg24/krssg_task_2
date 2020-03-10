@@ -6,3 +6,10 @@ for task 1 use files server.py  client0.py  then open desired umber of terminals
 for task 2 use file lift.cpp
 enter the number of passengers n
 then enter starting floor dir(U/D) dest floor n times
+
+for task 3 execute rrt_img.cpp and store the coordinates of path in output file inp
+this file acts as input file for turtle_tf_listener.cpp
+
+to chcek the coordinates of turtle, in a new terminal write rostopic echo /turtle1/pose
+
+
